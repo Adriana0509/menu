@@ -1,0 +1,107 @@
+body {
+	background-color: coral;
+
+	background: 
+		linear-gradient(
+
+			rgba(0,0,0,100%),
+			rgba(0,0,0,95%),
+			rgba(0,0,0,35%),
+			rgba(0,0,0,0%))no-repeat,
+		url(img/comida-exotica.jpg);
+
+	background-size: cover;
+	height: 650px;
+}
+
+h1 {
+	font-family: 'Alike';
+	background-color: gray;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.nav {
+	
+	/*border-style: solid;*/
+	/*border-width: 2px;*/
+	/*display: inline-block;*/
+	float: right;
+	margin:0px 5px;
+	width: 60%;
+	/*background-color: white;*/
+	/*text-align: right;*/
+}
+
+/*esto es un div*/
+.panel {
+	width: 30%;
+	height: 600px;
+	background-color: black;
+	color: white;
+	opacity: 90%;
+	padding: 50px;
+	padding-top: 95px;
+}
+
+ul{
+	/*background-color: orange;*/
+}
+
+.nav ul li {
+	/*float: right;*/
+	margin: 0px 20px;
+	text-align: center;
+	width: 110px;
+	display: inline-block;
+	border-radius: 10px;
+	color: white;
+}
+
+
+.nav ul li:hover {
+	background-color: gray;
+	color: white;
+}
+
+li{
+	color: white;
+
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Alegreya Sans SC';
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	width: 110px;
+}
+
+a:hover {
+	color: white;
+	color: gray;
+}
+
+/*section {
+	width: 628px;
+	height: 700px;
+	margin-left: 50px;
+
+}*/
+
+p{
+	text-align: justify;
+	color: white;
+}
+
+img{
+	height: 80px;
+	/*float: left;*/
+
+	position: absolute;
+	z-index: 1;
+	left: 57px;
+	top: 20px;
+}
